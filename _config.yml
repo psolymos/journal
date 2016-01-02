@@ -17,7 +17,7 @@ kramdown:
 markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
 
 # Bootswatch theme
-theme: readable
+theme: paper
 # fancy fonts on/off
 fancyfonts: false
 # navbar style: inverse, transparent
