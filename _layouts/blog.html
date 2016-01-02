@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+{% include _highlight.html %}
+</head>
+<body>
+{% include _navigation.html %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            {% if page.title %}
+                {% if page.subtitle %}
+                    <a href="index.html"><h1 class="title">{{ page.title }}</h1></a>
+                    <h2 class="subtitle">{{ page.subtitle }}</h2>
+                {% else %}
+                    <h1 class="title">{{ page.title }}</h1>
+                {% endif %}
+            {% endif %}
+            <p id="post-meta"><small>Posed on {{ page.date | date: '%B %d, %Y' }} by <a href="http://peter.solymos.org">P&eacute;ter S&oacute;lymos</a></small><br />
+            {% if page.category %}<span class="label label-info">{{ page.category }}</span>{% endif %}{% if page.tags %}{% for tag in page.tags %} <span class="label label-success">{{ tag }}</span>{% endfor %}{% endif %}</p>
+            <hr>
+<!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+            {{ content }}
+
+<!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+  this.page.url = {{ page.url }};
+  this.page.identifier = {{ page.title | slugify }};
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//{% if page.disqus %}{{ page.disqus }}{% else %}{{ site.disqus }}{% endif %}.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+    </div>
+</div>
+
+{% include _footer.html %}
+</body>
+</html>

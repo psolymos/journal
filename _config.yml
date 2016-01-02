@@ -1,0 +1,26 @@
+title: Peter's Journal
+description: Keeping a journal to keep track of stuff: ideas, readings, and more
+
+#baseurl:  http://localhost:4000
+baseurl: http://peter.solymos.org/journal
+#baseurl: http://datacloning.github.io
+
+include: [".htaccess"]
+exclude: ["README.md","LICENSE.md"]
+timezone:    America/Edmonton
+
+encoding: UTF-8
+markdown: kramdown
+kramdown:
+  input:          GFM
+  hard_wrap:      false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,Rmd"
+
+# Bootswatch theme
+theme: superhero
+# fancy fonts on/off
+fancyfonts: false
+# navbar style: inverse, transparent
+navbar: transparent
+
+#disqus: datacloning

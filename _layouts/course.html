@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include _head.html %}
+{% include _highlight.html %}
+</head>
+<body>
+{% include _navigation.html %}
+<div class="container">
+{% if page.course %}
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/"><h3><em>{{ page.course.title }}</em></h3></a>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-8 col-md-offset-2">
+            <ul class="breadcrumb">
+                <li><a href="{{ site.baseurl }}">Home</a></li>
+                <li><a href="{{ site.baseurl }}/courses/">Courses</a></li>
+                <li><a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/">{{ page.course.location }} {{ page.course.year }}</a></li>
+                <li class="active">{{ page.course.lecture }}</li>
+            </ul>
+		</div>
+	</div>
+    <div class="row">
+    	<div class="col-md-8 col-md-offset-2">
+
+			{% if page.course.file %}
+			<span class="pull-right">
+			  <div class="btn-group">
+                {% if page.course.slides %}
+			    <a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.slides }}" class="btn btn-primary btn-sm"><i class="fa fa-laptop"></i> Slides</a>
+    		    {% endif %}
+                {% if page.course.pdf %}
+			    <a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.pdf }}" class="btn btn-primary btn-sm"><i class="fa fa-file-pdf-o"></i> pdf</a>
+    		    {% endif %}
+			    <a href="https://raw.githubusercontent.com/datacloning/datacloning.github.io/master/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.file }}.Rmd" class="btn btn-primary btn-sm"><i class="fa fa-code"></i> Source</a>
+    		    <div class="btn-group">
+      			  <a href="#" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+		          <i class="fa fa-download"></i> Download
+        		  <span class="caret"></span>
+      			  </a>
+      			  <ul class="dropdown-menu">
+        			<li><a href="{{ page.url }}" download><i class="fa fa-file-text-o"></i> html</a></li>
+        			{% if page.course.pdf %}
+        			<li><a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.pdf }}" download><i class="fa fa-file-pdf-o"></i> pdf</a></li>
+        			{% endif %}
+        			<li><a href="https://raw.githubusercontent.com/datacloning/datacloning.github.io/master/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.file }}.Rmd" download><i class="fa fa-file-code-o"></i> Rmd</a></li>
+       			  </ul>
+    		    </div>
+    		  </div>
+			</span>
+			{% endif %}
+
+            <h1 class="title">{{ page.title }}</h1>
+{% else %}
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+{% endif %}
+<!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+            {{ content }}
+
+<!-- content ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+            <ul class="pager">
+                {% if page.course.previous %}
+                <li class="previous"><a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.previous }}.html"><i class="fa fa-caret-left"></i> Previous</a></li>
+                {% endif %}
+                {% if page.course.next %}
+                <li class="next"><a href="{{ site.baseurl }}/courses/{{ page.course.year }}/{{ page.course.location | downcase }}/{{ page.course.next }}.html">Next <i class="fa fa-caret-right"></i></a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% include _footer.html %}
+</body>
+</html>
