@@ -18,9 +18,9 @@
                 {% endif %}
             {% endif %}
             <p id="post-meta"><small>Posed on {{ page.date | date: '%B %d, %Y' }} by <a href="http://peter.solymos.org">P&eacute;ter S&oacute;lymos</a></small><br />
-            {% if page.category %}Category: <span class="label label-info"><a herf="">{{ page.category | capitalize }}</a></span>{% endif %}<br />
-            {% if page.tags %}{% for tag in page.tags %} <span class="label label-success"><a herf="">{{ tag }}</a></span>{% endfor %}{% endif %}</p>
-            <hr>
+
+            {% if page.category %}Category: <a href="#" class="btn btn-info btn-xs">{{ page.category | capitalize }}</a>{% endif %}<br />
+            {% if page.tags %}{% for tag in page.tags %}<a href="#" class="btn btn-success btn-xs">{{ tag | capitalize }}</a>{% endfor %}{% endif %}</p>
 <!-- content starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
             {{ content }}
