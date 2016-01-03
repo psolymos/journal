@@ -24,3 +24,11 @@ fancyfonts: false
 navbar: transparent
 
 #disqus: datacloning
+
+category_list:
+- Category 1
+- category 2
+
+tag_list:
+- Tag 1
+- tag 2
