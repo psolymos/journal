@@ -8,7 +8,7 @@ layout: default
 {% assign tag_words = site_tags | split:',' | sort %}
 <p>
 {% for tag in tag_words) %}
-  <a href="#{{ tag | slugify }}" class="btn btn-success btn-xs">{{ tag }} <span>({{ site.categories[tag] | size }})</span></a>
+  <a href="#{{ tag | slugify }}" class="btn btn-info btn-xs">{{ tag }} <span>({{ site.categories[tag] | size }})</span></a>
 {% endfor %}
 </p>
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
