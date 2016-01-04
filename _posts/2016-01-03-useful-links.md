@@ -36,4 +36,4 @@ and the feature diff between the free and gold version is not huge.
 
 ## Cookie stuff
 
-[Confetty Sweets](http://www.confettisweets.ca)
+[Confetti Sweets](http://www.confettisweets.ca)
