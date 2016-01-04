@@ -21,11 +21,22 @@ no brain, use a notebook --- translated from Hungarian).
 I just started [Trello](http://trello.com) which seems good enough for the job,
 and the feature diff between the free and gold version is not huge.
 
-## Workshops and eCourses
+## Workshops and courses
+
+Clearly traveling courses
+
+* [Highland Statistics](http://www.highstat.com/)
+* [Transmitting Science](http://www.transmittingscience.org/)
+* [Dataanalytics](http://dataanalytics.org.uk/)
+
+Online courses (?)
 
 * [http://canadianriversinstitute.com/training/cri-workshop/](http://canadianriversinstitute.com/training/cri-workshop/)
 * [http://nricaribou.cc.umanitoba.ca/R/](http://nricaribou.cc.umanitoba.ca/R/)
 * [http://www.statistics.com/r-courses/](http://www.statistics.com/r-courses/)
+
+Clearly online courses
+
 * [https://www.edx.org/](https://www.edx.org/)
 * [https://www.coursera.org/](https://www.coursera.org/)
 
