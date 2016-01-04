@@ -23,12 +23,5 @@ fancyfonts: false
 # navbar style: inverse, transparent
 navbar: transparent
 
-#disqus: datacloning
+#disqus:
 
-category_list:
-- Category 1
-- category 2
-
-tag_list:
-- Tag 1
-- tag 2
