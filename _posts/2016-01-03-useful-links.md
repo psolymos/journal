@@ -52,4 +52,6 @@ Clearly online courses
 
 ## Interesting stuff:
 
-* [http://fathom.info/](http://fathom.info/)
+* Graphical design: [http://fathom.info/](http://fathom.info/)
+* Membership based tutorials etc (premium stuff) at [FlowingData](https://flowingdata.com/membership/).
+
