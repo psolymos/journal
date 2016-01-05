@@ -49,3 +49,7 @@ Clearly online courses
 ## Cookie stuff
 
 [Confetti Sweets](http://www.confettisweets.ca)
+
+## Interesting stuff:
+
+* [http://fathom.info/](http://fathom.info/)
