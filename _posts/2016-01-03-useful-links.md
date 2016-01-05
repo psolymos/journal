@@ -23,11 +23,12 @@ and the feature diff between the free and gold version is not huge.
 
 ## Workshops and courses
 
-Clearly traveling courses
+Clearly not online courses
 
 * [Highland Statistics](http://www.highstat.com/)
 * [Transmitting Science](http://www.transmittingscience.org/)
 * [Dataanalytics](http://dataanalytics.org.uk/)
+* [GIS in Ecology](http://www.gisinecology.com/training_courses.htm)
 
 Online courses (?)
 
