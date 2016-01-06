@@ -23,5 +23,5 @@ fancyfonts: false
 # navbar style: inverse, transparent
 navbar: transparent
 
-#disqus:
+disqus: petersolymos
 
