@@ -13,7 +13,7 @@ published: true
 
 ## html and js based presentation tools
 
-* [jmpress](http://jmpressjs.github.io/docs/index.html)
+* [jmpress](http://jmpressjs.github.io/docs/index.html), [example](http://jmpressjs.github.com/jmpress.js/examples/impress/)
 * [reveal.js](http://lab.hakim.se/reveal-js/) running on [slides.com](http://slides.com)
 * [deck.js](http://imakewebthings.com/deck.js/)
 * [slidesjs](http://www.slidesjs.com/) is a responsive plugin for jQuery
