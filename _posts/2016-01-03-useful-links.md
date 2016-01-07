@@ -54,4 +54,4 @@ Clearly online courses
 
 * Graphical design: [http://fathom.info/](http://fathom.info/)
 * Membership based tutorials etc (premium stuff) at [FlowingData](https://flowingdata.com/membership/).
-
+* SCORM based framework as [ISC proposal](https://github.com/JohnRMoreau/ISC_Grant-TeachR/blob/master/ISC-TeachRproposal.md).
