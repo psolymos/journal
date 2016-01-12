@@ -91,10 +91,13 @@ Video: 15-18 min.
 
 Turn some of the posts into video tutorials.
 
-Collect the posts in a a PACKT book? Plus some for the heavier DC book.
+Collect the posts in a book? How quickly it becomes obsolete?
+Maybe just scrape and put in a self published one offering
+print version on demand. This way there is no need for
+dubious printing houses. Plus some can go into the heavier DC book.
 
 Once it is written: schedule, and come up with social media
-marketing plan ([Buffer](buffer.com), Pablo images, etc.)
+marketing plan ([Buffer](http://buffer.com), Pablo images, etc.)
 
 Need a pool of picture that relates to DC.
 
