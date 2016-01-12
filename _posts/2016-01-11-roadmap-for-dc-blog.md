@@ -53,8 +53,9 @@ Extra: OpenBUGS, WinBUGS, Stan related posts. Especially when tied to:
 
 These need to be added to dcexamples: need an infrastructure
 
-* Classic BUGS examples
+* Classic BUGS examples (14+15=29 examples)
 * Examples from published papers (Nadeem, Lele, Torabi, Solymos, etc.)
+* Stan examples dclone-ified
 * LM, LMM
 * GLM, GLMM
 * GAM, GAMM
@@ -68,3 +69,33 @@ These need to be added to dcexamples: need an infrastructure
 * Calibration
 * Meta analysis
 * Expert opinion
+
+Other ideas include:
+
+* interview people using DC.
+
+
+## Outlook
+
+Use the 20-week campaign to build awareness, user community,
+and encourage thinking and discussions.
+
+5 months, 5*4=20 weeks, 20*2=40 posts
+
+Each post is >500 words (500-1000), but we'll see.
+Most ideal is 7 minutes (1600 words), not longer. Time it!
+
+Title: ~6 words, ~100 characters
+
+Video: 15-18 min.
+
+Turn some of the posts into video tutorials.
+
+Collect the posts in a a PACKT book? Plus some for the heavier DC book.
+
+Once it is written: schedule, and come up with social media
+marketing plan ([Buffer](buffer.com), Pablo images, etc.)
+
+Need a pool of picture that relates to DC.
+
+Jean-Clode?
