@@ -102,3 +102,7 @@ marketing plan ([Buffer](http://buffer.com), Pablo images, etc.)
 Need a pool of picture that relates to DC.
 
 Jean-Clode?
+
+Rendering DC examples is figured out: see `dcexamples/lab`.
+This means that examples can be written up as
+blog post and instantly made available as example.
