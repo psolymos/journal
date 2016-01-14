@@ -29,6 +29,7 @@ Clearly not online courses
 * [Transmitting Science](http://www.transmittingscience.org/)
 * [Dataanalytics](http://dataanalytics.org.uk/)
 * [GIS in Ecology](http://www.gisinecology.com/training_courses.htm)
+* [PR statistics](http://prstatistics.com/)
 
 Online courses (?)
 
