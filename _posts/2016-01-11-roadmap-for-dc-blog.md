@@ -99,10 +99,26 @@ dubious printing houses. Plus some can go into the heavier DC book.
 Once it is written: schedule, and come up with social media
 marketing plan ([Buffer](http://buffer.com), Pablo images, etc.)
 
-Need a pool of picture that relates to DC.
-
 Jean-Clode?
 
 Rendering DC examples is figured out: see `dcexamples/lab`.
 This means that examples can be written up as
 blog post and instantly made available as example.
+
+## Stock images
+
+Need a pool of picture that relates to DC.
+
+Have to be distictive.
+
+* Distance blur + perspective on:
+  - gridded notebook paper (from above)
+  - blueprint style (blue on white, or inverse)
+  - black/green/white board (from side)
+  - computer screen (slightly pixelated)
+  
+* Use:
+  - relevant math formulae (latex or hand written)
+  - hand drawn graphs
+  - computer code
+  - computer based graphics
