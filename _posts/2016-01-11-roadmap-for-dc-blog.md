@@ -122,3 +122,13 @@ Have to be distictive.
   - hand drawn graphs
   - computer code
   - computer based graphics
+
+## How to measure effectiveness of the campaign
+
+Collect weekly info about:
+
+* Website usage statistics
+* Mailing list subscribers and discussions
+* Comments on the blog
+* Retweets, likes, mentions, whatever.
+* CRAN downloads.
