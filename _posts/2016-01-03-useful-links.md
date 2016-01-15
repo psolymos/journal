@@ -60,3 +60,7 @@ Clearly online courses
 ## Social media timings
 
 * [A Scientific Guide to Posting](http://www.huffingtonpost.com/belle-beth-cooper/a-scientific-guide-to-pos_b_4262571.html)
+
+## Video course
+
+* [Richard McElreath](https://www.youtube.com/channel/UCNJK6_DZvcMqNSzQdEkzvzA)
