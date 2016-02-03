@@ -116,7 +116,7 @@ Have to be distictive.
   - blueprint style (blue on white, or inverse)
   - black/green/white board (from side)
   - computer screen (slightly pixelated)
-  
+
 * Use:
   - relevant math formulae (latex or hand written)
   - hand drawn graphs
@@ -132,3 +132,19 @@ Collect weekly info about:
 * Comments on the blog
 * Retweets, likes, mentions, whatever.
 * CRAN downloads.
+
+## Turn it into course
+
+Use [DataCamp](https://www.datacamp.com/) template from [here](https://github.com/datacamp/courses-introduction-to-r)
+
+Make it into a package with other courses:
+
+1. R intro
+2. Anatomy of linear models (prerequisite: 1)
+3. A primer on JAGS (prerequisite: 1)
+4. DC basics (prerequisite: 2 and 3)
+5. Advanced DC (prerequisite: 4)
+6. HPC intro (prerequisite: 1)
+7. Parallel MCMC and DC (prerequisite: 4 and 6)
+
+See also [OpenIntro](https://www.openintro.org/) model.
