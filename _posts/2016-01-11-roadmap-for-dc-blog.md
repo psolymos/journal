@@ -14,7 +14,7 @@ There are 2 categories:
 
 ## Tutorial posts: mechanics
 
-1. Basic JAGS workflow
+1. Basic JAGS workflow (dclone-ified workflow)
 2. Using `jags.fit` and updating the model
 3. Understanding inits
 4. Multiple model definition
