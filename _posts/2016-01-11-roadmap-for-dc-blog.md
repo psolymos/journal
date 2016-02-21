@@ -36,6 +36,8 @@ There are 2 categories:
 16. dcmle explained
 17. dcmle and package development: PVAClone, sharx, detect as examples
 18. mgcv/jagam related models
+19. data specifications
+20. initial values (RNG seed and type included)
 
 Extra: OpenBUGS, WinBUGS, Stan related posts. Especially when tied to:
 
@@ -62,6 +64,7 @@ These need to be added to dcexamples: need an infrastructure
 * GLM, GLMM
 * GAM, GAMM
 * ZI and problems with initial values
+* initial values for latent variables
 * PVA
 * Measurement error
 * Occupancy
