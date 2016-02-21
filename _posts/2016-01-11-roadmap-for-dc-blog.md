@@ -32,7 +32,7 @@ There are 2 categories:
 13. DC diagnostics
 14. MCMC plots
 15. DC plots
-16. `dcoptions explained`
+16. `dcoptions` explained
 16. dcmle explained
 17. dcmle and package development: PVAClone, sharx, detect as examples
 18. mgcv/jagam related models
