@@ -35,11 +35,13 @@ There are 2 categories:
 16. `dcoptions explained`
 16. dcmle explained
 17. dcmle and package development: PVAClone, sharx, detect as examples
+18. mgcv/jagam related models
 
 Extra: OpenBUGS, WinBUGS, Stan related posts. Especially when tied to:
 
 * announcing new functionality (Stan)
-* or commenting on papers that use Open/WinBUGS.
+* or commenting on papers that use Open/WinBUGS
+* advertising unique functionality (OpenBUGS for examples)
 
 ## Tutorial posts: understanding
 
