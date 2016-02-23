@@ -153,3 +153,4 @@ Make it into a package with other courses:
 7. Parallel MCMC and DC (prerequisite: 4 and 6)
 
 See also [OpenIntro](https://www.openintro.org/) model.
+
