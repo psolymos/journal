@@ -16,13 +16,13 @@ Links: [general Scribus tutorial](https://www.bio.umass.edu/biology/undergraduat
 
 
 * Why poster? Pros and cons, and sometimes an oral is downgraded
-* Organization
-* Software and why it matter
+* Organization (storyboard, file formats and put them in a directory, reproducible code)
+* Software and why it matters
 * Layout
 * Sizes
 * Fonts
 * Colors
-* Line drawings, figures, photos
+* Line drawings/sketches, figures/plots, flowcharts, maps, photos/images
 * Tables
 * Math notation
 * Printing
@@ -32,3 +32,20 @@ Links: [general Scribus tutorial](https://www.bio.umass.edu/biology/undergraduat
 
 1. Write book and develop the poster template.
 2. Reproduce the template from scratch and make a tutorial video.
+
+Make mini videos:
+* GIMP for photo/image manipulation
+* Inkscape for line drawings ([here](http://tavmjong.free.fr/INKSCAPE/MANUAL/html/index.html), [here](http://wiki.inkscape.org/wiki/images/Introduction_to_Inkscape_by_Gavin_Corley.pdf))
+* Find something for flowcharts (DiagrammeR, Graphviz, diagram packages; Dia, Scribus, Google Drive, [https://www.draw.io/](https://www.draw.io/); [TikZ in LaTeX](http://www.texample.net/tikz/examples/simple-flow-chart/))
+* QGIS for maps ([here](http://www.qgistutorials.com/en/))
+* LaTeX for math and tables?
+* R for reproducible/modifiable stats plots
+
+
+## Scientific literature about eye tracking etc.
+
+From [this](http://betterposters.blogspot.ca/2010/10/eye-tracking.html) blogpost, here are 2 refs:
+
+1. Chu S, Paul N, Ruel L. 2009. Using eye tracking technology to examine the effectiveness of design elements on news websites. Information Design Journal 17(1): 31-43. http://dx.doi.org/10.1075/idj.17.1.04chu
+2. Holmqvist K, Wartenberg C. 2005. The role of local design factors for newspaper reading behaviour – an eye-tracking perspective. Lund University Cognitive Studies 127: 1-21. http://www.lucs.lu.se/LUCS/127/LUCS.127.pdf
+
