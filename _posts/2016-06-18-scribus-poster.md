@@ -10,7 +10,9 @@ published: true
 Links: [general Scribus tutorial](https://www.bio.umass.edu/biology/undergraduate/biology-computer-resource-center/documentation/making-a-poster-with-scribus),
 [math notation kinks](http://cazencott.info/index.php/post/2014/08/15/Making-posters-with-Scribus),
 [general poster tutorial](http://www.kmeverson.org/academic-poster-design.html),
-[Scribus based one](https://www.linux.com/news/how-create-poster-presentations-scribus)
+[Scribus based one](https://www.linux.com/news/how-create-poster-presentations-scribus),
+[An Unofficial Guide](https://archive.org/details/TheUnofficialGuideForAuthors),
+[Graphics for conservation](http://scalar.usc.edu/works/graphics-for-conservation/index)
 
 
 * Why poster? Pros and cons, and sometimes an oral is downgraded
