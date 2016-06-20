@@ -34,6 +34,7 @@ Links: [general Scribus tutorial](https://www.bio.umass.edu/biology/undergraduat
 2. Reproduce the template from scratch and make a tutorial video.
 
 Make mini videos:
+
 * GIMP for photo/image manipulation
 * Inkscape for line drawings ([here](http://tavmjong.free.fr/INKSCAPE/MANUAL/html/index.html), [here](http://wiki.inkscape.org/wiki/images/Introduction_to_Inkscape_by_Gavin_Corley.pdf))
 * Find something for flowcharts (DiagrammeR, Graphviz, diagram packages; Dia, Scribus, Google Drive, [https://www.draw.io/](https://www.draw.io/); [TikZ in LaTeX](http://www.texample.net/tikz/examples/simple-flow-chart/))
