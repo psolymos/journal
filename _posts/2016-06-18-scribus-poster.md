@@ -43,10 +43,17 @@ Make mini videos:
 * R for reproducible/modifiable stats plots
 
 
-## Scientific literature about eye tracking etc.
+### Scientific literature about eye tracking etc.
 
 From [this](http://betterposters.blogspot.ca/2010/10/eye-tracking.html) blogpost, here are 2 refs:
 
 1. Chu S, Paul N, Ruel L. 2009. Using eye tracking technology to examine the effectiveness of design elements on news websites. Information Design Journal 17(1): 31-43. http://dx.doi.org/10.1075/idj.17.1.04chu
 2. Holmqvist K, Wartenberg C. 2005. The role of local design factors for newspaper reading behaviour – an eye-tracking perspective. Lund University Cognitive Studies 127: 1-21. http://www.lucs.lu.se/LUCS/127/LUCS.127.pdf
+
+### Readibility and legibility
+
+Serif vs. sans-serif fonts: [wiki](https://en.wikipedia.org/wiki/Serif#Readability_and_legibility), [blog](http://www.webdesignerdepot.com/2013/03/serif-vs-sans-the-final-battle/), [literature](http://alexpoole.info/academic/literaturereview.html)
+
+> Finally, we should accept that most reasonably designed typefaces in mainstream use will be equally legible, and that it makes much more sense to argue in favour of serif or sans serif typefaces on aesthetic grounds than on the question of legibility.
+
 
