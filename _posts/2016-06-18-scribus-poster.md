@@ -21,7 +21,7 @@ Links: [general Scribus tutorial](https://www.bio.umass.edu/biology/undergraduat
 * Layout
 * Sizes
 * Fonts
-* Colors
+* Colors, color palettes ([here](https://wiki.scribus.net/canvas/How_to_create_your_own_colours), [here](http://www.pictaculous.com/), [here](https://docs.gimp.org/en/gimp-concepts-palettes.html), [here](https://docs.gimp.org/en/gimp-palette-dialog.html) for creating/editing palettes with webapp and GIMP, and how to add them to Scribus)
 * Line drawings/sketches, figures/plots, flowcharts, maps, photos/images
 * Tables
 * Math notation
