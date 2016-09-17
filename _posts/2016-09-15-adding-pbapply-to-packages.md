@@ -1,5 +1,5 @@
 ---
-title: "Ho to add pbapply to R packages"
+title: "How to add pbapply to R packages"
 layout: blog
 category: poster
 tags: [Scribus, layout]
