@@ -1,5 +1,5 @@
 ---
-title: "Adding pbapply to R packages"
+title: "Ho to add pbapply to R packages"
 layout: blog
 category: poster
 tags: [Scribus, layout]
@@ -7,34 +7,69 @@ comments: false
 published: true
 ---
 
-There are two ways of adding the pbapply package to another package.
+As of today, there are 20 R packages that reverse depend/import/suggest (3/14/3)
+the **pbapply** package. Current and future package developers
+who decide to incorporate the progress bar using **pbapply**
+might want to customize the type and style of the progress bar
+in their packages to better suit the needs of certain functions
+or to create a distinctive look.
+Here is a quick guide to help in setting up and customize
+the dependence on **pbapply**.
 
-## 1. Suggests: pbapply
+![](https://github.com/psolymos/pbapply/raw/master/images/pbapply-01.gif)
 
-Add pbapply to the Suggests field in the `DESCRIPTION`.
+## Adding pbapply
 
-Use a conditional statement in your code to fall back on a base function in case of pbapply not installed:
+The **pbapply** has no extra (non `r-base-core`) dependencies and is lightweight,
+so adding it as dependency does not represent major overhead.
+There are two alternative ways of adding the **pbapply** package to another
+R package: *Suggests*, or *Depends/Imports*. Here are the recommended and
+tested ways of adding a progress bar to other R packages
+(see the [*Writing R Extesions*](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#Package-Dependencies) manual for an official guide).
+
+### 1. Suggests: pbapply
+
+The user decides whether to install **pbapply** and the function behavior changes accordingly. This might be preferred if there are only few functions that utilize a progress bar.
+
+**pbapply** needs to be added to the `Suggests` field in the `DESCRIPTION` file and
+use conditional statements in the code to fall back on a base functions
+in case of **pbapply** not being installed:
 
 ```
-out <- if (requireNamespace("pbapply")) {
-   pbapply::pblapply(X, FUN, ...)
-} else {
-   lapply(X, FUN, ...)
-}
+out <- if (requireNamespace("pbapply"))
+   pbapply::pblapply(X, FUN, ...) else lapply(X, FUN, ...)
 ```
 
-See a small example package [here](https://github.com/psolymos/pbapplySuggests).
+See a small R package [here](https://github.com/psolymos/pbapplySuggests)
+for an example (see `R CMD check` log on Travis CI: [![Build Status](https://travis-ci.org/psolymos/pbapplySuggests.svg?branch=master)](https://travis-ci.org/psolymos/pbapplySuggests)).
 
-## 2. Depends/Imports: pbapply
 
-Add pbapply to the Depends or Imports field in the `DESCRIPTION`.
+### 2. Depends/Imports: pbapply
 
-Use a the pbapply functions either as `pbapply::pblapply()` or specify them in the `NAMESPACE` (`importFrom(pbapply, pblapply)`) and
+In this second case, **pbapply** needs to be installed and called explicitly
+via `::` or `NAMESPACE`. This might be preferred if many functions utilize
+the progress bar.
+
+**pbapply** needs to be added to the `Depends` or `Imports` field
+in the `DESCRIPTION` file.
+Use **pbapply** functions either as `pbapply::pblapply()` or specify them in the `NAMESPACE` (`importFrom(pbapply, pblapply)`) and
 use it as `pblapply()` (without the `::`).
+
+See a small R package [here](https://github.com/psolymos/pbapplyDepends)
+for an example (see `R CMD check` log on Travis CI: [![Build Status](https://travis-ci.org/psolymos/pbapplyDepends.svg?branch=master)](https://travis-ci.org/psolymos/pbapplyDepends)).
 
 ## Customizing the progress bar
 
-Specify the progress bar options in the `zzz.R` file of the package:
+Other than aesthetical reasons, there are cases when customizing the
+progress bar is truly necessary.
+For example, when working with a GUI, the default text based progress
+bar might not be appropriate and developers want a Windows or Tcl/Tk
+based progress bar.
+
+In such cases, one can specify the progress bar options in the
+`/R/zzz.R` file of the package. The following example
+shows the default settings, but any of those list elements
+can be modified (see `?pboptions` for acceptable values):
 
 ```
 .onAttach <- function(libname, pkgname){
@@ -52,16 +87,27 @@ Specify the progress bar options in the `zzz.R` file of the package:
 }
 ```
 
-This will set the options and pbapply will not override when loaded.
-
-See a small example package [here](https://github.com/psolymos/pbapplyDepends).
+Cpecifying the progress bar options this way will set the options
+before **pbapply** is loaded. **pbapply** will not override these
+settings. It is possible to specify a partial list of options
+(from **pbapply** version 1.3-0 and above).
 
 ## Suppressing the progress bar
 
-Suppressing the progress bar is sometimes handy. By default, progress bar is suppressed when `!interactive()`.
-In other instances, put this inside a function:
+Suppressing the progress bar is sometimes handy.
+By default, progress bar is suppressed when `!interactive()`.
+This is an important feature, so that **Sweawe** and **knitr**
+and R markdown documents are not polluted with a really long
+printout of the progress bar.
+(It is possible to can turn the progress bar back on.)
+
+In interactive session, put this inside a function to disable the
+progress bar (and resetting it when exiting the function):
 
 ```
 pbo <- pboptions(type = "none")
-on.exit(pboptions(pbo), add = TRUE)
+on.exit(pboptions(pbo))
 ```
+
+That is all. Suggestions and feature requests are welcome.
+Leave a note or visit the [GitHub repo](https://github.com/psolymos/pbapply/issues).
