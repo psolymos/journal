@@ -110,4 +110,4 @@ on.exit(pboptions(pbo))
 ```
 
 That is all. Suggestions and feature requests are welcome.
-Leave a note or visit the [GitHub repo](https://github.com/psolymos/pbapply/issues).
+Leave a comment or visit the [GitHub repo](https://github.com/psolymos/pbapply/issues).
