@@ -17,7 +17,7 @@ promote: false
 - [ ] Parallel computing overview by Marc Kery and dclone updates
 - [ ] Condor paper
 - [ ] Advertize datacloning.org and mailing list
-- [ ] Westgrid tricks
+- [ ] Westgrid tricks (obsolete?)
 - [ ] vegan nullmodel framework
 - [ ] Zenodo and data sets (Dolina and SAR)
 - [ ] ARU progress (data integration, early-mid-late species via opticut)
@@ -27,6 +27,10 @@ promote: false
 - [ ] Reaction to this: https://dynamicecology.wordpress.com/2016/08/22/ten-commandments-for-good-data-management/
 - [x] Own packages trending (http://moderndata.plot.ly/using-cranlogs-in-r-with-plotly/)
 - [ ] R-bloggers, R-users related post (fixing rss-feed demo?)
+- [x] How to add pbapply to R packages?
+- [x] pbapply parallel stuff
+- [ ] QPAD v3 and offsets explained
+- [ ] cloglog link explained
 
 
  goal: increase awareness (overall work, packages)
