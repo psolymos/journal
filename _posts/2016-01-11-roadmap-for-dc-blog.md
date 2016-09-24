@@ -7,7 +7,7 @@ comments: false
 published: true
 ---
 
-{{ page.date }}-{{ page.slug }}.html
+_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md
 
 There are 2 categories:
 
