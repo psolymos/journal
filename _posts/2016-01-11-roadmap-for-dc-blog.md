@@ -7,7 +7,7 @@ comments: false
 published: true
 ---
 
-{{ page.year}}-{{ page.month }}-{{ page.day }}-{{ page.slug }}.html
+{{ page.date }}-{{ page.slug }}.html
 
 There are 2 categories:
 
