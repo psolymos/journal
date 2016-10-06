@@ -7,7 +7,8 @@ comments: false
 published: true
 ---
 
-_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md
+https://raw.githubusercontent.com/psolymos/psolymos.github.io/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md
+
 
 There are 2 categories:
 
