@@ -1,3 +1,4 @@
+library(pbapply)
 library(plyr)
 ## from http://ryouready.wordpress.com/2010/01/11/progress-bars-in-r-part-ii-a-wrapper-for-apply-functions/#comment-122
 lapply_pb <-
@@ -29,16 +30,29 @@ f <- function(n, s=0.1) {
 }
 
 n <- c(10, 50, 100, 200, 500, 1000)
-s <- 0.05
-x <- lapply(n, f, s=s)
-m <- t(sapply(x, function(z) z["elapsed",] - z["expected",]))
+s <- 0.01
+x1 <- lapply(n, f, s=s)
+m1 <- t(sapply(x1, function(z) z["elapsed",] - z["expected",]))
+x2 <- lapply(n, f, s=s)
+m2 <- t(sapply(x2, function(z) z["elapsed",] - z["expected",]))
+x3 <- lapply(n, f, s=s)
+m3 <- t(sapply(x3, function(z) z["elapsed",] - z["expected",]))
 
+m <- (m1+m2+m3)/3
 
 op <- par(mfrow=c(1,2))
-matplot(n, m, type="b", lty=1, ylab="Overhead (sec)", xlab="# iterations")
-legend("topleft", bty="n", col=1:4, pch=as.character(1:4), text.col=1:4,
+matplot(n, m, type="l", lty=1, lwd=3,
+    ylab="Overhead (sec)", xlab="# iterations")
+#matlines(n, m1, lty=1, type="l")
+#matlines(n, m2, lty=1, type="l")
+#matlines(n, m3, lty=1, type="l")
+legend("topleft", bty="n", col=1:4, lwd=3, text.col=1:4,
     legend=colnames(m))
-matplot(n, m/n, type="b", lty=1, ylab="Overhead / # iterations (sec)", xlab="# iterations")
+matplot(n, m/n, type="l", lty=1, lwd=3,
+    ylab="Overhead / # iterations (sec)", xlab="# iterations")
+#matlines(n, m1/n, lty=1, type="l")
+#matlines(n, m2/n, lty=1, type="l")
+#matlines(n, m3/n, lty=1, type="l")
 par(op)
 
 
