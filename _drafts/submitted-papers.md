@@ -31,10 +31,6 @@ comparability between point counts conducted by humans
 versus acoustic recorders.
 Avian Conservation and Ecology, submitted.
 
-Cameron J. Nordell; Samuel Hache; Erin M. Bayne; Keith A. Hobson; Peter Solymos; Kenneth Foster; Christine Godwin; Richard Krikun; Peter Pyle.
-Causes and consequences of within-site variation in feather stable hydrogen isotope (\delta^2H) values of boreal songbirds.
-PLoS ONE, under revision.
-
 Daniel Alexander Yip; Erin M Bayne; Peter Solymos; James Campbell; Darren Proppe.
 Sound attenuation in forested and roadside environments: Implications for avian point count surveys.
 Condor, submitted.
