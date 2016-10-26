@@ -31,7 +31,13 @@ promote: false
 - [x] pbapply parallel stuff
 - [ ] QPAD v3 and offsets explained
 - [ ] cloglog link explained
-
+- [ ] 20-years in business series: opening post explaining motivation
+- [ ] 20-years in business series: Villanyi-hg (photos, data, analysis)
+- [ ] 20-years in business series: G. frumentum morphometry (photos, data, analysis)
+- [ ] 20-years in business series: 7-es tobor saska (photos, data, analysis)
+- [ ] 20-years in business series: Menes-vgy (photos, data, analysis)
+- [ ] 20-years in business series: Mecsek-hg (photos, data, analysis)
+- [ ] T. prevostianus reintroduction (okologia blog)
 
  goal: increase awareness (overall work, packages)
  measure:
