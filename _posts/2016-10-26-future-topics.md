@@ -1,10 +1,9 @@
 ---
 title: "Future topics"
-layout: default
-published: false
+layout: blog
+published: true
 category: Etc
 tags: [site]
-disqus: petersolymos
 promote: false
 ---
 

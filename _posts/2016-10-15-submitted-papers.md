@@ -1,10 +1,9 @@
 ---
 title: "Submitted papers"
-layout: default
-published: false
+layout: blog
+published: true
 category: Etc
 tags: [site]
-disqus:
 promote: false
 ---
 
