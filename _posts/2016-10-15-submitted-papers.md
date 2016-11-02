@@ -34,10 +34,6 @@ Daniel Alexander Yip; Erin M Bayne; Peter Solymos; James Campbell; Darren Proppe
 Sound attenuation in forested and roadside environments: Implications for avian point count surveys.
 Condor, submitted.
 
-Jeffrey R. Ball; Peter Solymos; Fiona K. A. Schmiegelow; Samuel Hache; Jim Schieck; Erin M. Bayne.
-Regional habitat needs of a nationally listed species, Canada Warbler Cardellina canadensis, in Alberta.
-ACE-ECO, under revision.
-
 Mate Kisfali; Peter Solymos; Antal Nagy; Istvan A. Racz; Orsolya Horvath; Gabor Sramko.
 A morphometric and molecular study of the genus Pseudopodisma (Orthoptera: Acrididae).
 Acta Zool. Acad. Sci. Hung., under revision.
