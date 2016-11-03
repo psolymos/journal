@@ -7,6 +7,10 @@ tags: [site]
 promote: false
 ---
 
+Feh&eacute;r, Z., Majoros, G., &Ouml;tv&ouml;s, S., Bajomi, B., & S$oacute;lymos, P.
+Successful reintroduction of the Black Nerite, Theodoxus prevostianus (C. Pfeiffer, 1828)
+(Mollusca: Gastropoda: Nertidae) in Hungary.
+Journal of Molluscan Studies
 
 Lionel Leston, Erin Bayne, C. Lisa Mahon, Peter Solymos, Jeff Ball, Jim Schieck,
 Fiona Schmiegelow, and Samantha Song.
