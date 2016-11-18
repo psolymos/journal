@@ -34,10 +34,6 @@ comparability between point counts conducted by humans
 versus acoustic recorders.
 Avian Conservation and Ecology, submitted.
 
-Daniel Alexander Yip; Erin M Bayne; Peter Solymos; James Campbell; Darren Proppe.
-Sound attenuation in forested and roadside environments: Implications for avian point count surveys.
-Condor, submitted.
-
 Mate Kisfali; Peter Solymos; Antal Nagy; Istvan A. Racz; Orsolya Horvath; Gabor Sramko.
 A morphometric and molecular study of the genus Pseudopodisma (Orthoptera: Acrididae).
 Acta Zool. Acad. Sci. Hung., under revision.
