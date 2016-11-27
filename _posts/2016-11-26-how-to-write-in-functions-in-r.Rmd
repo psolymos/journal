@@ -1,13 +1,12 @@
 ---
-title: "How to write and document in R"
+title: "How to write and document &#37;species&#37; functions in R"
 layout: default
-published: false
+published: true
 category: Etc
 tags: [tag1, tag2]
 disqus: petersolymos
 promote: false
 ---
-
 
 I spend a considerable time of my working hours with data processing where I often use the `%in%` R function as `x %in% y`. Whenever I need the negation of that, I used to write `!(x %in% y)`. Not much of a hassle, but still, wouldn't it be nicer to have `x %notin% y` instead? So I decided to code it for my [**mefa4**](https://CRAN.R-project.org/package=mefa4) package that I maintain primarily to make my data munging time shorter and more efficient. Coding a `%you_name_it%` function was no big deal. But I had to do quite a bit of research and trial-error until I figured out the proper documentation. So here it goes.
 
