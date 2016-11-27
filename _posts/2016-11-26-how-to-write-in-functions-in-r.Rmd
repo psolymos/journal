@@ -1,5 +1,5 @@
 ---
-title: "How to write and document &#37;function&#37; in R"
+title: "How to write and document in R"
 layout: default
 published: false
 category: Etc
