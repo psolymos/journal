@@ -8,12 +8,12 @@ disqus: petersolymos
 promote: true
 ---
 
-I recently posted a piece about [how to write and document special functions in R](link.here). I meant that as a prelude for the topic I am writing about in this post. Let me start at the beginning. The other day Dirk Eddelbuettel tweeted about the new release of the [**data.table**](https://cran.r-project.org/package=data.table) package (v1.9.8). 
-There was a [new feature](https://cran.r-project.org/web/packages/data.table/news.html) for joins based on `%inrange%` and `%between%`. It got me thinking: it would be really cool to generalize this idea for different intervals, for example as `x %[]% c(a, b)`.
+I recently posted a piece about [how to write and document special functions in R](http://peter.solymos.org/code/2016/11/26/how-to-write-and-document-special-functions-in-r.html). I meant that as a prelude for the topic I am writing about in this post. Let me start at the beginning. The other day Dirk Eddelbuettel tweeted about the new release of the [**data.table**](https://cran.r-project.org/package=data.table) package (v1.9.8). 
+There were [new features announced](https://cran.r-project.org/web/packages/data.table/news.html) for joins based on `%inrange%` and `%between%`. That got me thinking: it would be really cool to generalize this idea for different intervals, for example as `x %[]% c(a, b)`.
 
 ## Motivation
 
-We want values of `x` that satisfy the condition of `x >= a & x <= b` given that `a <= b`. Typing `x %[]% c(a, b)` instead of the previous expression is not much shorter (14 vs. 15 characters with counting spaces). But considering the `a <= b` condition as well, it becomes a saving (`x >= min(a, b) & x <= mmax(a, b)` is 31 characters long). And sorting is really important, because by flipping `a` and `b`, we get quite different answers: 
+We want to evaluate if values of `x` satisfy the condition `x >= a & x <= b` given that `a <= b`. Typing `x %[]% c(a, b)` instead of the previous expression is not much shorter (14 vs. 15 characters with counting spaces). But considering the `a <= b` condition as well, it becomes a saving (`x >= min(a, b) & x <= mmax(a, b)` is 31 characters long). And sorting is really important, because by flipping `a` and `b`, we get quite different answers: 
 
 ```R
 x <- 5
@@ -23,7 +23,7 @@ x >= 10 & x <= 1
 # [1] FALSE
 ```
 
-Also, `min` and `max` will not be very useful when we want to vectorize the expression, we need to use `pmin` and `pmax` for obvious reasons:
+Also, `min` and `max` will not be very useful when we want to vectorize the expression. We need to use `pmin` and `pmax` for obvious reasons:
 
 ```R
 x >= min(1:10, 10:1) & x <= max(10:1, 1:10)
@@ -32,7 +32,7 @@ x >= pmin(1:10, 10:1) & x <= pmax(10:1, 1:10)
 # [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
 ```
 
-If interval endpoints can also be open or closed, and allowing them to flip around makes the semantics of left/right closed/open interval definitions hard. We can thus all agree that there is a need for an expression, like `x %[]% c(a, b)`, that is compact, flexible, and invariant to endpoint sorting. This is exactly what the [**intrval**](https://github.com/psolymos/intrval) package is trying to achieve.
+If interval endpoints can also be open or closed, and allowing them to flip around makes the semantics of left/right closed/open interval definitions hard. We can thus all agree that there is a need for an expression, like `x %[]% c(a, b)`, that is _compact_, _flexible_, and _invariant_ to endpoint sorting. This is exactly what the [**intrval**](https://github.com/psolymos/intrval) package is for!
 
 ## What's in the package
 
@@ -122,20 +122,18 @@ Eqal      | Not equal  | Less than  | Greater than
 
 The previous operators will return `NA` for unordered factors.
 Set overlap can be evaluated by the base `%in%` operator and its negation
-`%nin%`.
+`%nin%`. (This feature is really [redundant](http://peter.solymos.org/code/2016/11/26/how-to-write-and-document-special-functions-in-r.html), I know, but decided to include regardless...)
 
 ## Install
 
-Install development version from GitHub:
+Install development version from GitHub (not yet on CRAN):
 
 ```R
 library(devtools)
 install_github("psolymos/intrval")
 ```
 
-## License
-
-[GPL-2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+The package is licensed under [GPL-2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
 ## Examples
 
