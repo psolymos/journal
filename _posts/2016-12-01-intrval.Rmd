@@ -85,6 +85,9 @@ Eqal     | Not equal | Less than | Greater than
  `%(]%`  | `%](%`    | `%(<]%`   | `%(>]%`
  `%()%`  | `%][%`    | `%(<)%`   | `%(>)%`
 
+The helper function `intrval_types` can be used to 
+print/plot the following summary:
+
 ![](https://github.com/psolymos/intrval/raw/master/extras/intrval.png)
 
 
@@ -212,6 +215,8 @@ DATE %[]% as.Date(c("2000-01-151", "2000-03-15"))
 DATE %[>]% as.Date(c("2000-01-151", "2000-03-15"))
 # [1] FALSE FALSE  TRUE
 ```
+
+For more examples, see the [unit-testing script](https://github.com/psolymos/intrval/blob/master/tests/tests.R).
 
 ## Feedback
 
