@@ -85,6 +85,9 @@ Eqal     | Not equal | Less than | Greater than
  `%(]%`  | `%](%`    | `%(<]%`   | `%(>]%`
  `%()%`  | `%][%`    | `%(<)%`   | `%(>)%`
 
+![](https://github.com/psolymos/intrval/raw/master/extras/intrval.png)
+
+
 ### Interval-to-interval relations
 
 The overlap of two closed intervals, [`a1`, `b1`] and [`a2`, `b2`],
@@ -121,7 +124,7 @@ The previous operators will return `NA` for unordered factors.
 Set overlap can be evaluated by the base `%in%` operator and its negation
 `%nin%`.
 
-## Versions
+## Install
 
 Install development version from GitHub:
 
@@ -129,13 +132,6 @@ Install development version from GitHub:
 library(devtools)
 install_github("psolymos/intrval")
 ```
-
-User visible changes are listed in the [NEWS](https://github.com/psolymos/intrval/blob/master/NEWS.md) file.
-
-## Report a problem
-
-Use the [issue tracker](https://github.com/psolymos/intrval/issues)
-to report a problem.
 
 ## License
 
@@ -146,6 +142,8 @@ to report a problem.
 ![](https://github.com/psolymos/intrval/raw/master/extras/examples.png)
 
 ```R
+library(intrval)
+
 ## bounding box
 set.seed(1)
 n <- 10^4
@@ -217,3 +215,7 @@ DATE %[>]% as.Date(c("2000-01-151", "2000-03-15"))
 # [1] FALSE FALSE  TRUE
 ```
 
+## Feedback
+
+Please check out the package and use the [issue tracker](https://github.com/psolymos/intrval/issues)
+to suggest a new feature or report a problem.
