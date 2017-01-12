@@ -37,7 +37,3 @@ Paired sampling as a pragmatic approach toward
 comparability between point counts conducted by humans
 versus acoustic recorders.
 Avian Conservation and Ecology, under revision.
-
-Mate Kisfali; Peter Solymos; Antal Nagy; Istvan A. Racz; Orsolya Horvath; Gabor Sramko.
-A morphometric and molecular study of the genus Pseudopodisma (Orthoptera: Acrididae).
-Acta Zool. Acad. Sci. Hung., under review.
