@@ -57,14 +57,13 @@ is evaluated by the `%(o)%` (alias for `%()o()%`).
 `%]o[%` is used for the negation of two open interval overlap,
 directional evaluation is done via the operators
 `%(<o)%` and `%(o>)%`.
+Overlap operators with mixed endpoint do not have
+negation and directional counterparts.
 
 Equal     | Not equal  | Less than  | Greater than
 ----------|------------|------------|----------------
  `%[o]%`  | `%)o(%`    | `%[<o]%`   | `%[o>]%`
  `%(o)%`  | `%]o[%`    | `%(<o)%`   | `%(o>)%`
-
-Overlap operators with mixed endpoint do not have
-negation and directional counterparts.
 
 Please leave a comment or use the [issue tracker](https://github.com/psolymos/intrval/issues)
 to provide feedback or report a problem.
