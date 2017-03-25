@@ -32,8 +32,3 @@ Standardizing audio recording and human observer detection distance from playbac
 experiments for integrated analysis of point count data.
 Avian Conservation and Ecology, under revision.
 
-Steven L. Van Wilgenburg, Peter Solymos, Kevin J. Kardynal, and Matthew D. Frey
-Paired sampling as a pragmatic approach toward
-comparability between point counts conducted by humans
-versus acoustic recorders.
-Avian Conservation and Ecology, under revision.
