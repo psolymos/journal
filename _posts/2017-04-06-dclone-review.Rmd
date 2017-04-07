@@ -1,0 +1,65 @@
+---
+title: "Review of package interfacing with JAGS"
+layout: default
+published: true
+category: Code
+tags: [R, functions, JAGS, dclone]
+disqus: petersolymos
+promote: true
+---
+
+# Packages
+
+## rjags
+
+All basic functions. N/A
+
+## R2jags
+
+* autorun
+* parallel jags runs
+* simplified jags call
+
+* recomplie models [rjags basic]
+* attach/detach jags objects
+
+## jagsUI
+
+* autorun
+* simplified jags call
+* parallel support
+
+* posterior predictive checks [unique]
+* whiskerplot [unique]
+* view object in spreadsheet-like separate window [unique]
+
+## runjags
+
+Matthew J. Denwood (2016). runjags: An R Package Providing Interface Utilities, Model Templates, Parallel Computing Methods and Additional Distributions for MCMC Models in JAGS. Journal of Statistical Software, 71(9), 1-25. doi:10.18637/jss.v071.i09
+
+https://www.jstatsoft.org/article/view/v071i09
+
+* autorun with various options for stop/convergence
+* simplified jags call 
+* parallel processes too
+
+* additional module: Pareto and other priors [unique]
+* run jags in batch mode, various methods to run processes [partly unique]
+* flexible dump file format [unique]
+* drop-k XV, simulation studies [unique]
+* common GLMM models with formula interface [unique but see stanarm etc]
+
+
+## dclone
+
+* simplified jags call
+* parallel version for simplified interface
+* autorun (update.mcmc.list)
+
+* update jags model (updated model) [???]
+* parallel version for rjags functions [unique]
+* safe RNGs through L'Ecuyer module [unique]
+* DC support [unique]
+* bivariate posterior plots [unique]
+* support WinBUGS/OpenBUGS (Stan) [unique-ish]
+
