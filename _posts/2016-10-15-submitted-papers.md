@@ -11,11 +11,6 @@ Solymos, P. & Azeria, E. T.
 opticut: Likelihood based optimal partitioning for indicator species analysis.
 Methods in Ecology and Evolution, under review.
 
-Feh&eacute;r, Z., Majoros, G., &Ouml;tv&ouml;s, S., Bajomi, B., & S&oacute;lymos, P.
-Successful reintroduction of the endangered Black Nerite,
-Theodoxus prevostianus (C. Pfeiffer, 1828) (Mollusca: Gastropoda: Nertidae) in Hungary.
-Journal of Molluscan Studies, under revision.
-
 Lionel Leston, Erin Bayne, C. Lisa Mahon, Peter Solymos, Jeff Ball, Jim Schieck,
 Fiona Schmiegelow, and Samantha Song.
 Assessing the efficacy of local control-impact models to predict
