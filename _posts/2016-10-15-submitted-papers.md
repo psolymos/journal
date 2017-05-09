@@ -22,8 +22,4 @@ Detectability of roadside and forest-edge Autonomous Recording Unit-based avian 
 count surveys: implications for the North American Breeding Bird Survey.
 Avian Conservation and Ecology, under revision.
 
-Daniel A. Yip, Lionel Leston, Erin M. Bayne, Peter Solymos, and Alison Grover.
-Standardizing audio recording and human observer detection distance from playback
-experiments for integrated analysis of point count data.
-Avian Conservation and Ecology, under revision.
 
