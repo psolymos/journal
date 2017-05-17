@@ -7,6 +7,12 @@ tags: [site]
 promote: false
 ---
 
+Zoltan Feher, Katharina Jaksch, Miklos Szekeres,
+Elisabeth Haring, Sonja Bamberger, Barna Pall-Gergely, Peter Solymos.
+Range-constrained co-occurrence simulation reveals little niche
+partitioning among rock-dwelling Montenegrina land snails (Gastropoda: Clausiliidae)
+Journal of Biogeography, in review.
+
 Solymos, P. & Azeria, E. T.
 opticut: Likelihood based optimal partitioning for indicator species analysis.
 Methods in Ecology and Evolution, under review.
