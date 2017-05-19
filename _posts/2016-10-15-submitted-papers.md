@@ -11,14 +11,20 @@ Solymos, P., Steven M. Matsuoka, Diana Stralberg, Erin M. Bayne, and Nicole K. S
 Phylogeny and species traits predict bird detectability
 Ecography, submitted.
 
+Zoltan Feher, Katharina Jaksch, Miklos Szekeres,
+Elisabeth Haring, Sonja Bamberger, Barna Pall-Gergely, Peter Solymos.
+Range-constrained co-occurrence simulation reveals little niche
+partitioning among rock-dwelling Montenegrina land snails (Gastropoda: Clausiliidae)
+Journal of Biogeography, in review.
+
+Pall-Gergely, B., Asami, T., and Sólymos, P.,
+There is more than what meets the eye:
+subspecies description rates are higher in morphologically complex taxa.
+Cladistics, in review
+
 Solymos, P. & Azeria, E. T.
 opticut: Likelihood based optimal partitioning for indicator species analysis.
 Methods in Ecology and Evolution, under review.
-
-Feh&eacute;r, Z., Majoros, G., &Ouml;tv&ouml;s, S., Bajomi, B., & S&oacute;lymos, P.
-Successful reintroduction of the endangered Black Nerite,
-Theodoxus prevostianus (C. Pfeiffer, 1828) (Mollusca: Gastropoda: Nertidae) in Hungary.
-Journal of Molluscan Studies, under revision.
 
 Lionel Leston, Erin Bayne, C. Lisa Mahon, Peter Solymos, Jeff Ball, Jim Schieck,
 Fiona Schmiegelow, and Samantha Song.
@@ -31,13 +37,4 @@ Detectability of roadside and forest-edge Autonomous Recording Unit-based avian 
 count surveys: implications for the North American Breeding Bird Survey.
 Avian Conservation and Ecology, under revision.
 
-Daniel A. Yip, Lionel Leston, Erin M. Bayne, Peter Solymos, and Alison Grover.
-Standardizing audio recording and human observer detection distance from playback
-experiments for integrated analysis of point count data.
-Avian Conservation and Ecology, under revision.
 
-Steven L. Van Wilgenburg, Peter Solymos, Kevin J. Kardynal, and Matthew D. Frey
-Paired sampling as a pragmatic approach toward
-comparability between point counts conducted by humans
-versus acoustic recorders.
-Avian Conservation and Ecology, under revision.
