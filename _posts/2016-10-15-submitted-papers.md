@@ -7,6 +7,10 @@ tags: [site]
 promote: false
 ---
 
+Solymos, P., Steven M. Matsuoka, Diana Stralberg, Erin M. Bayne, and Nicole K. S. Barker.
+Phylogeny and species traits predict bird detectability
+Ecography, submitted.
+
 Solymos, P. & Azeria, E. T.
 opticut: Likelihood based optimal partitioning for indicator species analysis.
 Methods in Ecology and Evolution, under review.
