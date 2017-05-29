@@ -28,9 +28,9 @@ Methods in Ecology and Evolution, under review.
 
 Lionel Leston, Erin Bayne, C. Lisa Mahon, Peter Solymos, Jeff Ball, Jim Schieck,
 Fiona Schmiegelow, and Samantha Song.
-Assessing the efficacy of local control-impact models to predict
-cumulative effects on boreal birds.
-Environmental Monitoring and Assessment, under review.
+Assessing the ability of local-scale models to predict cumulative effects
+on boreal birds at landscape scales.
+Ecological Indicators, submitted.
 
 R. F. Pankratz, R. F., S. Hache, P. Solymos, and E. M. Bayne.
 Detectability of roadside and forest-edge Autonomous Recording Unit-based avian point
