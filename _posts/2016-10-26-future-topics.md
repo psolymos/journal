@@ -28,6 +28,9 @@ promote: false
 - [ ] ARU progress (data integration, early-mid-late species via opticut)
 - [ ] QPAD v3 and offsets explained
 - [ ] cloglog link explained
+- [ ] myRpackages: one post / package about motivation and use cases
+- [ ] JOSM data processing
+- [ ] Tucson survey
 
 ## Other
 
