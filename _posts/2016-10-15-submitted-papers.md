@@ -7,9 +7,14 @@ tags: [site]
 promote: false
 ---
 
+Diana Stralberg, Xianli Wang, Marc Andre Parisien, Francois-Nicolas ROBINNE, Peter Solymos,
+C. Lisa Mahon, Erin Bayne.
+Scenarios of future climate- and fire-driven changes in the western boreal forest region of North America
+FORECO, submitted.
+
 Solymos, P., Steven M. Matsuoka, Diana Stralberg, Erin M. Bayne, and Nicole K. S. Barker.
 Phylogeny and species traits predict bird detectability
-Ecography, submitted.
+Ecography, in review.
 
 Zoltan Feher, Katharina Jaksch, Miklos Szekeres,
 Elisabeth Haring, Sonja Bamberger, Barna Pall-Gergely, Peter Solymos.
