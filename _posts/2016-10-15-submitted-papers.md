@@ -7,6 +7,11 @@ tags: [site]
 promote: false
 ---
 
+Daniel A. Yip, Elly C. Knight, Elene Haave-Audet, Scott J. Wilson, Connor
+Charchuk, Chris D. Scott, Peter Solymos, and Erin M. Bayne.
+Levelling the playing field: automated recognition from audio recording sound level provides
+unbiased distance estimates. Methods in Ecology and Evolution, under revision.
+
 Diana Stralberg, Xianli Wang, Marc Andre Parisien, Francois-Nicolas ROBINNE, Peter Solymos,
 C. Lisa Mahon, Erin Bayne.
 Scenarios of future climate- and fire-driven changes in the western boreal forest region of North America.
