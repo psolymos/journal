@@ -36,6 +36,3 @@ Assessing the ability of local-scale models to predict cumulative effects
 on boreal birds at landscape scales.
 Ecological Indicators, submitted.
 
-Daniel A. Yip, Elly C. Knighta, E. Haave-Audet, Scott J. Wilson, Connor Charchuk, Chris D. Scott, P. Solymos, and Erin M. Bayne.
-Levelling the playing field: automated recognition from audio recording sound level provides unbiased distance estimates.
-Methods in Ecology and Evolution, submitted
