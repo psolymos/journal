@@ -39,12 +39,12 @@ The most important function is `lhreg` which takes the following main arguments:
 and fits the a Multivariate Normal model to the observed `Y` vector
 with phylogenetically based (or any other known) correlations 
 and optionally with observation error (`SE`), and covariate effects (`X`).
-The function is pretty barebones (i.e. no formula interface,
+The function is pretty bare-bones (i.e. no formula interface,
 the design matrix `X` needs to be properly specified through
 e.g. `model.matrix()`). The `lambda` argument
-is a nonnegative number modifying the strength of phylogenetic effects. 
+is a non-negative number modifying the strength of phylogenetic effects. 
 `lambda = 0` is equivalent to `lm` with
-`weights = 1/SE`, `lambda = 1` implies Brownian motion evolution,
+`weights = 1/(SE^2)`, `lambda = 1` implies Brownian motion evolution,
 `lambda = NA` lets the function estimate it based on the data.
 
 In terms of optimization, besides the algorithms from `stats::optim`,
@@ -72,6 +72,8 @@ function to produce *non-rainbow* colors.
 [modular code](https://en.wikipedia.org/wiki/Unix_philosophy#Doug_McIlroy_on_Unix_programming) please!) 
 The following figure showing the two input data vectors side-by-side:
 
-![](https://github.com/borealbirds/lhreg/raw/master/tree.png)
+<img src="https://github.com/borealbirds/lhreg/raw/master/tree.png" class="img-responsive" alt="lhreg inputs">
 
-I realize this is not a very detailed post, so feel free to ask question in the discussion!
+I realize this is not a very detailed post, but the paper
+and the vignette should satisfy your curiosity.
+If you still have unanswered questions, feel free to ask them below!
