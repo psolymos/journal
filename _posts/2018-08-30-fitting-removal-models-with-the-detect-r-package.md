@@ -1,7 +1,7 @@
 ---
 title: "Fitting removal models with the detect R package"
 layout: default
-published: false
+published: true
 category: Code
 tags: [R, detect, detectability, QPAD]
 disqus: petersolymos
