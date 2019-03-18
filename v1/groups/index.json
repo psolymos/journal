@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "group",
+            "attributes": {
+                "short": "plants",
+                "long": "vascular plants"
+            }
+        },
+        {
+            "id": "2",
+            "type": "group",
+            "attributes": {
+                "short": "snails",
+                "long": "gastropods"
+            }
+        }
+    ] 
+}

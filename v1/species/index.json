@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "species",
+            "attributes": {
+                "commonname": "",
+                "scientificname": "Helix pomatia",
+                "group": "snails"
+            }
+        },
+        {
+            "id": "2",
+            "type": "species",
+            "attributes": {
+                "commonname": "Dandelion",
+                "scientificname": "Taraxacum officinale",
+                "group": "plants"
+            }
+        }
+    ] 
+}
