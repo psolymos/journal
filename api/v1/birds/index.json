@@ -1,0 +1,30 @@
+{
+  "data": [{
+    "SpeciesID": "AlderFlycatcher",
+    "taxon": "birds",
+    "Species": "Alder Flycatcher",
+    "CommonName": "Alder Flycatcher",
+    "ScientificName": "Empidonax alnorum",
+    "TSNID": "178340",
+    "model_north": true,
+    "model_south": true,
+    "model_region": "North and South",
+    "habitat_assoc": "Lowland",
+    "native": true,
+    "DisplayName": "Alder Flycatcher (Empidonax alnorum)"
+  },
+  {
+    "SpeciesID": "Ovenbird",
+    "taxon": "birds",
+    "Species": "Ovenbird",
+    "CommonName": "Ovenbird",
+    "ScientificName": "Seiurus aurocapilla",
+    "TSNID": "726205",
+    "model_north": true,
+    "model_south": true,
+    "model_region": "North and South",
+    "habitat_assoc": "Upland",
+    "native": true,
+    "DisplayName": "Ovenbird (Seiurus aurocapilla)"
+  }] 		
+}
